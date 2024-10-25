@@ -1,0 +1,12 @@
+services:
+  smgeo-reports-api:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    ports:
+      - "8012:8012"
+    hostname: smgeo-reports-api
