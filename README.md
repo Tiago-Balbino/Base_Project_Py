@@ -39,19 +39,19 @@ This is a base project for building systems in Python using FastAPI. It includes
 
 ### 1. Crie e configura o .env.
 
-``` json
+```yaml
     touch .env   
 ```
 
 ### 2. Builder no docker.
 
-``` json
+```yaml
     docker-compose build   
 ```
 
 ### 3. Suba o container
 
-``` json
+```yaml
     docker-compose up   
 ```
 
